@@ -1,0 +1,10 @@
+# Phishing Email Analysis 
+
+# Overview
+This project demonstrates basic SOC skills by analyzing a phishing email to identify malicious indicators and understand common email-based attack techniques.
+
+# Objective
+- Identify phishing indicators in email content  
+- Analyze sender details and email headers  
+- Detect malicious links and spoofed domains  
+- Understand social engineering tactics  
