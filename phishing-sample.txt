@@ -1,0 +1,18 @@
+# Sample Phishing Email
+
+**From:** support@paypaI.com  
+**To:** user@gmail.com  
+**Subject:** Urgent: Your Account Has Been Suspended  
+
+
+Dear User,
+
+We noticed suspicious activity in your account. Your account has been temporarily suspended.
+
+Please click the link below to verify your account immediately:
+http://paypal-verification-secure.com/login
+
+Failure to do so may result in permanent account suspension.
+
+Thank you,
+PayPal Security Team
