@@ -1,9 +1,6 @@
-# Sample Phishing Email
-
-**From:** support@paypaI.com  
-**To:** user@gmail.com  
-**Subject:** Urgent: Your Account Has Been Suspended  
-
+From: support@paypaI.com
+To: user@gmail.com
+Subject: Urgent: Your Account Has Been Suspended
 
 Dear User,
 
