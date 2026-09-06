@@ -1,15 +1,25 @@
-From: support@paypaI.com
-To: user@gmail.com
-Subject: Urgent: Your Account Has Been Suspended
+Received: from mail-out.attacker-server.com (attacker-server.com [185.220.101.5])
+	by mx.company.com (Postfix) with ESMTPS id 4Sxxxxxxx
+	for <sriya@company.com>; Mon, 07 Sep 2026 09:12:00 +0530
+Authentication-Results: mx.company.com;
+	spf=fail (sender IP 185.220.101.5 is not authorized by domain company-update-portal.com)
+	smtp.mailfrom=bounce@malicious-domain.com;
+	dkim=fail (signature verification failed);
+	dmarc=fail (p=QUARANTINE) header.from=company-update-portal.com
+From: "IT Service Desk" <support@company-update-portal.com>
+To: sriya@company.com
+Subject: URGENT: Mandatory Password Reset Required
+Date: Mon, 07 Sep 2026 09:11:50 +0530
+Message-ID: <20260907091150.12345@attacker-server.com>
+Reply-To: phisher-collect@malicious-domain.com
+Content-Type: text/html; charset="UTF-8"
 
-Dear User,
+Dear Employee,
 
-We noticed suspicious activity in your account. Your account has been temporarily suspended.
+Your corporate password will expire in 2 hours. Please log in immediately to keep active access:
+hxxp[://]login-company-portal[.]com/auth/login.php
 
-Please click the link below to verify your account immediately:
-http://paypal-verification-secure.com/login
+Failure to update will result in account suspension.
 
-Failure to do so may result in permanent account suspension.
-
-Thank you,
-PayPal Security Team
+Regards,
+IT Helpdesk
